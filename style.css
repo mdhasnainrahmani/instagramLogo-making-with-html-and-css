@@ -1,0 +1,50 @@
+.container{
+    background-color: aliceblue;
+    height: 400px;
+    width: 100%;
+   padding-top: 30px;
+    
+}
+.logo{
+height: 300px;
+width: 300px;
+background-image: linear-gradient(blue , rgb(255,0,255),  red , rgba(255, 255, 0, 0.911));
+background-size: cover;
+border-radius: 50px;
+margin: 20px auto;
+z-index: -2;
+padding: 40px;
+
+}
+.big-circle{
+    height: 150px;
+    width: 150px;
+    
+    border: 23px solid white;
+    border-radius: 80px;
+    padding:57px;
+    margin: 0px auto;
+    z-index: -1;
+    
+
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    border: 25px solid white;
+    border-radius: 50%;
+    padding:50px;
+    margin: -13px;
+
+
+}
+.small-circle{
+    height: 20px;
+    width: 20px;
+    border: 8px solid white;
+    background-color: white;
+    border-radius: 50%;
+    padding:0px;
+    float: right;
+    margin: -30px;
+}
